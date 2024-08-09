@@ -1,0 +1,708 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+
+}
+body {
+background-color:      #ECEFFF;
+}
+#gotop{
+position: fixed;
+left: 95%;
+}
+#navbar {
+    position: fixed;
+    margin-right: auto;
+    background-color:  #32374D;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+#navbar header {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 3em;
+    font-family: Montserrat;
+    transition: transform .2s;
+}
+
+#navbar i {
+    font-size: 5em;
+    color:  #92a8d1;
+    margin-top: 0.3em;
+    transition: transform .2s;
+}
+.nav-link {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    color: #fff;
+    display: block;
+    padding: 0.9em;
+    border-top: 1px solid rgba(255, 255 ,255 ,0.1);
+    width: 100%;
+}
+#navwrapper a:hover{
+    background-color:    #92a8d1;
+    color: white;
+    cursor: pointer;
+}
+
+
+#home-container {
+    height: 100%;
+    margin-left: 20%;
+}
+
+
+
+h1 {
+    font-family: Montserrat;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+}
+h1 span{
+        color:  #5f2568;
+    font-size: 60px;
+}
+
+
+.what{
+    position: absolute;
+    top: 60%;
+   
+}
+
+.what h1 span{
+        color:      #5f2568;
+    font-size: 40px;
+}
+
+.what h1{
+
+    font-family: Montserrat;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+     padding: 1% ;
+
+
+}
+.what-text p{
+     position: relative;
+    top: 60%;
+    font-size: 20px;
+     color: #282929;
+     margin-left: 10%;
+     margin-right: 10%;
+      text-align: justify;
+    
+}
+
+.when{
+    position: absolute;
+    top: 95%;
+  
+}
+
+
+.when h1 {
+    font-family: Montserrat;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    padding: 1% ;
+}
+
+.when h1 span{
+    color:     #5f2568;
+    font-size: 40px;
+}
+
+.when-text p{
+    margin-left: 10%;
+     margin-right: 10%;
+     position: relative;
+    top: 68%;
+    font-size: 20px;
+     color: #282929;
+     text-align: justify;
+     
+}
+
+
+.container {
+     height: 100vh;
+     width: 100vw;
+     max-height: 800px;
+     max-width: 980px;
+     min-height: 600px;
+     min-width: 1000px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .border {
+     height: 369px;
+     width: 290px;
+     background: transparent;
+     border-radius: 10px;
+     transition: border 1s;
+     position: absolute;
+     overflow: hidden;
+}
+ .border:hover {
+     border: 1px solid #fff;
+}
+ .card {
+     height: 379px;
+     width: 300px;
+     background: #808080;
+     border-radius: 10px;
+     transition: background 0.8s;
+     overflow: hidden;
+     background: #000;
+     box-shadow: 0 50px 63px -60px #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 113%;
+
+}
+ .card0 {
+     background: url("1.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card0:hover {
+     background: url("1.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card0:hover h2 {
+     opacity: 1;
+}
+ .card0:hover .fa {
+     opacity: 1;
+}
+ .card1 {
+     background: url("2.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card1:hover {
+     background: url("2.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card1:hover h2 {
+     opacity: 1;
+}
+ .card1:hover .fa {
+     opacity: 1;
+}
+ .card2 {
+     background: url("3.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card2:hover {
+     background: url("3.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card2:hover h2 {
+     opacity: 1;
+}
+ .card2:hover .fa {
+     opacity: 1;
+}
+
+ h2 {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+}
+ .fa {
+     opacity: 0;
+     transition: opacity 1s;
+}
+ .icons {
+     position: absolute;
+     fill: #fff;
+     color: #fff;
+     height: 130px;
+     top: 226px;
+     width: 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+}
+ 
+
+#gen-text{
+    position: absolute;
+    top: 132%;
+    margin-left: 8%;
+}
+
+
+#gen-text h1 {
+    font-family: Montserrat;
+    color: #000;
+    font-size: 30px;
+    text-align: left;
+    padding: 1% ;
+}
+
+#gen-text h1 span{
+    color:     #5f2568;
+    font-size: 30px;
+}
+
+
+
+#fgen-text{
+    position: absolute;
+    top: 145%;
+    margin-left: 8%;
+}
+
+
+#fgen-text h3 {
+    font-family: Montserrat;
+    color: #5f2568;
+    font-size: 30px;
+    text-align: left;
+    padding: 1% ;
+}
+
+
+
+#fgen-text h3 span{
+    color:     #5f2568;
+    font-size: 20px;
+}
+
+
+.sgen-text{
+    position: absolute;
+    top: 210%;
+    margin-left: 8%;
+}
+
+
+.sgen-text h3 {
+    font-family: Montserrat;
+    color: #5f2568;
+    font-size: 30px;
+    text-align: left;
+    padding: 1% ;
+}
+
+.sgen-text h3 span{
+    color:     #5f2568;
+    font-size: 20px;
+}
+
+
+
+
+.container-s {
+     height: 100vh;
+     width: 100vw;
+     max-height: 800px;
+     max-width: 980px;
+     min-height: 600px;
+     min-width: 1000px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .border-s {
+     height: 369px;
+     width: 290px;
+     background: transparent;
+     border-radius: 10px;
+     transition: border 1s;
+     position: absolute;
+     overflow: hidden;
+}
+ .border-s:hover {
+     border: 1px solid #fff;
+}
+ .card-s {
+     height: 379px;
+     width: 300px;
+     background: #808080;
+     border-radius: 10px;
+     transition: background 0.8s;
+     overflow: hidden;
+     background: #000;
+     box-shadow: 0 50px 63px -60px #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 79%;
+     left: 0%;
+
+}
+ .card0-s {
+     background: url("11.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card0-s:hover {
+     background: url("11.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card0-s:hover h2 {
+     opacity: 1;
+}
+ .card0-s:hover .fa {
+     opacity: 1;
+}
+
+
+
+
+ .card1-s {
+     background: url("22.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card1-s:hover {
+     background: url("22.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card1-s:hover h2 {
+     opacity: 1;
+}
+ .card1-s:hover .fa {
+     opacity: 1;
+}
+ .card2-s {
+     background: url("33.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card2-s:hover {
+     background: url("33.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card2-s:hover h2 {
+     opacity: 1;
+}
+ .card2-s:hover .fa {
+     opacity: 1;
+}
+ 
+ h2 {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+}
+ .fa {
+     opacity: 0;
+     transition: opacity 1s;
+}
+ .icons-s {
+     position: absolute;
+     fill: #fff;
+     color: #fff;
+     height: 130px;
+     top: 226px;
+     width: 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+}
+ 
+
+
+.container-t {
+     height: 100vh;
+     width: 100vw;
+     max-height: 800px;
+     max-width: 980px;
+     min-height: 600px;
+     min-width: 1000px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .border-t {
+     height: 369px;
+     width: 290px;
+     background: transparent;
+     border-radius: 10px;
+     transition: border 1s;
+     position: absolute;
+     overflow: hidden;
+}
+ .border-t:hover {
+     border: 1px solid #fff;
+}
+ .card-t {
+     height: 379px;
+     width: 300px;
+     background: #808080;
+     border-radius: 10px;
+     transition: background 0.8s;
+     overflow: hidden;
+     background: #000;
+     box-shadow: 0 50px 63px -60px #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 44%;
+     left: 0%;
+
+}
+ .card0-t {
+     background: url("111.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card0-t:hover {
+     background: url("111.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card0-t:hover h2 {
+     opacity: 1;
+}
+ .card0-t:hover .fa {
+     opacity: 1;
+}
+
+
+
+
+ .card1-t {
+     background: url("222.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card1-t:hover {
+     background: url("222.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card1-t:hover h2 {
+     opacity: 1;
+}
+ .card1-t:hover .fa {
+     opacity: 1;
+}
+ .card2-t {
+     background: url("333.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card2-t:hover {
+     background: url("333.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card2-t:hover h2 {
+     opacity: 1;
+}
+ .card2-t:hover .fa {
+     opacity: 1;
+}
+ 
+ h2 {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+}
+ .fa {
+     opacity: 0;
+     transition: opacity 1s;
+}
+ .icons-t {
+     position: absolute;
+     fill: #fff;
+     color: #fff;
+     height: 130px;
+     top: 226px;
+     width: 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+}
+ 
+
+
+.tgen-text{
+    position: absolute;
+    top: 275%;
+    left: 28%;
+}
+
+
+.tgen-text h3 {
+    font-family: Montserrat;
+    color: #5f2568;
+    font-size: 30px;
+    text-align: left;
+    padding: 1% ;
+}
+
+.tgen-text h3 span{
+    color:     #5f2568;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.container-fr {
+     height: 100vh;
+     width: 100vw;
+     max-height: 800px;
+     max-width: 980px;
+     min-height: 600px;
+     min-width: 1000px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .border-fr {
+     height: 369px;
+     width: 290px;
+     background: transparent;
+     border-radius: 10px;
+     transition: border 1s;
+     position: absolute;
+     overflow: hidden;
+}
+ .border-fr:hover {
+     border: 1px solid #fff;
+}
+ .card-fr {
+     height: 379px;
+     width: 300px;
+     background: #808080;
+     border-radius: 10px;
+     transition: background 0.8s;
+     overflow: hidden;
+     background: #000;
+     box-shadow: 0 50px 63px -60px #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 9%;
+     left: 0%;
+
+}
+
+
+ .card0-fr {
+     background: url("1111.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card0-fr:hover {
+     background: url("1111.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card0-fr:hover h2 {
+     opacity: 1;
+}
+ .card0-fr:hover .fa {
+     opacity: 1;
+}
+
+
+
+ .card1-fr {
+     background: url("2222.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card1-fr:hover {
+     background: url("2222.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card1-fr:hover h2 {
+     opacity: 1;
+}
+ .card1-fr:hover .fa {
+     opacity: 1;
+}
+ .card2-fr {
+     background: url("3333.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card2-fr:hover {
+     background: url("3333.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card2-fr:hover h2 {
+     opacity: 1;
+}
+ .card2-fr:hover .fa {
+     opacity: 1;
+}
+ 
+ h2 {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+}
+ .fa {
+     opacity: 0;
+     transition: opacity 1s;
+}
+ .icons-fr {
+     position: absolute;
+     fill: #fff;
+     color: #fff;
+     height: 130px;
+     top: 226px;
+     width: 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+}
+ 
+
+
+.frgen-text{
+    position: absolute;
+    top: 340%;
+    left: 28%;
+}
+
+
+.frgen-text h3 {
+    font-family: Montserrat;
+    color: #5f2568;
+    font-size: 30px;
+    text-align: left;
+    padding: 1% ;
+}
+
+.frgen-text h3 span{
+    color:     #5f2568;
+    font-size: 20px;
+}
+

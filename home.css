@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body {
+background-color:   #92a8d1;
+}
+#navbar {
+    position: fixed;
+    margin-right: auto;
+    background-color:  #32374D;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+}
+#navbar header {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 3em;
+    font-family: Montserrat;
+    transition: transform .2s;
+}
+
+#navbar i {
+    font-size: 5em;
+    color:  #92a8d1;
+    margin-top: 0.3em;
+    transition: transform .2s;
+}
+.nav-link {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    color: #fff;
+    display: block;
+    padding: 0.9em;
+    border-top: 1px solid rgba(255, 255 ,255 ,0.1);
+    width: 100%;
+}
+#navwrapper a:hover{
+    background-color:    #92a8d1;
+    color: white;
+    cursor: pointer;
+}
+
+#title-header {
+    font-family: Montserrat;
+    color:#32374D;
+    font-size: 40px;
+}
+#description {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    font-size: 20px;
+}
+#home-container {
+    height: 100%;
+    padding: 20px;
+    margin-left: 20%;
+    display: flex;
+    align-content: center;
+}
+#home-text {
+    padding: 50px;
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: none;
+    margin-left: 50px;
+}
+#home-text p{
+    margin-top: 25px;
+}
+#home-text span{
+    font-family: Montserrat;
+    color: #32374D;
+    font-size: 30px;
+}
+#home-text button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    font-family: Montserrat;
+    color: #fff;
+    background-color:   #32374D;
+    cursor: pointer;
+}
+
+/* START YOUR STYLES HERE */

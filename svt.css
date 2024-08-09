@@ -1,0 +1,884 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body {
+background-color:      #ECEFFF;
+}
+#navbar {
+    position: fixed;
+    margin-right: auto;
+    background-color:  #32374D;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+}
+#navbar header {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 3em;
+    font-family: Montserrat;
+    transition: transform .2s;
+}
+
+#navbar i {
+    font-size: 5em;
+    color:  #92a8d1;
+    margin-top: 0.3em;
+    transition: transform .2s;
+}
+.nav-link {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    color: #fff;
+    display: block;
+    padding: 0.9em;
+    border-top: 1px solid rgba(255, 255 ,255 ,0.1);
+    width: 100%;
+}
+#navwrapper a:hover{
+    background-color:    #92a8d1;
+    color: white;
+    cursor: pointer;
+}
+
+
+#home-container {
+    height: 100%;
+    margin-left: 20%;
+}
+
+#gotop{
+position: fixed;
+left: 95%;
+}
+
+
+
+h1 {
+    position: absolute;
+    top: 58%;
+    left: 30%;
+    font-family: Montserrat;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+h1 span{
+    color:  #5f2568;
+    font-size: 30px;
+}
+
+
+.about-txt {
+     position: absolute;
+     top: 63.5%;
+     font-size: 20px;
+     color: #282929;
+     margin-left: 10%;
+     margin-right: 10%;
+     text-align: justify;
+    
+}
+
+
+h3  {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    color:  #5f2568;
+    font-size: 30px;
+
+}
+
+
+.other-info{
+     position: absolute;
+     top: 85.5%;
+     left: 20%;
+     font-size: 20px;
+     color: #282929;
+     margin-left: 10%;
+     margin-right: 40%;
+     text-align: justify;
+}
+.other-info p span {
+    color:  #5f2568;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.add-info{
+     position: absolute;
+     top: 80%;
+     left: 54.5%;
+     font-size: 20px;
+     color: #282929;
+     margin-left: 10%;
+     margin-right: 5%;
+     text-align: justify;
+   
+
+}
+
+.add-info p span {
+    color:  #5f2568;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.member-profile h1 {
+    position: absolute;
+    top: 115%;
+    left: 30%;
+    font-family: Montserrat;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+h1 span{
+    color:  #5f2568;
+    font-size: 30px;
+}
+.member-profile h4{
+    position: absolute;
+    top: 122%;
+    left: 30%;
+     font-size: 25px;
+}
+
+
+.container {
+     height: 100vh;
+     width: 100vw;
+     max-height: 800px;
+     max-width: 980px;
+     min-height: 600px;
+     min-width: 1000px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .border {
+     height: 369px;
+     width: 290px;
+     background: transparent;
+     border-radius: 10px;
+     transition: border 1s;
+     position: absolute;
+     overflow: hidden;
+}
+ .border:hover {
+     border: 1px solid #fff;
+}
+ .card {
+     height: 379px;
+     width: 300px;
+     background: #808080;
+     border-radius: 10px;
+     transition: background 0.8s;
+     overflow: hidden;
+     background: #000;
+     box-shadow: 0 50px 63px -60px #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 100%;
+
+}
+ .card0 {
+     background: url("coups.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card0:hover {
+     background: url("coups.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card0:hover h2 {
+     opacity: 1;
+}
+ .card0:hover .fa {
+     opacity: 1;
+}
+ .card1 {
+     background: url("wonu.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card1:hover {
+     background: url("wonu.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card1:hover h2 {
+     opacity: 1;
+}
+ .card1:hover .fa {
+     opacity: 1;
+}
+ .card2 {
+     background: url("gyu.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card2:hover {
+     background: url("gyu.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card2:hover h2 {
+     opacity: 1;
+}
+
+
+
+ h2 {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+}
+
+.icons h2{
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 8px;
+     margin-left: 13%;
+     opacity: 0;
+     transition: opacity 1s;
+     font-size: 10px;
+    }
+ .icons {
+     position: absolute;
+     fill: #fff;
+     color: #fff;
+     height: 130px;
+     top: 190px;
+     width: 160px;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.container-h {
+     height: 100vh;
+     width: 100vw;
+     max-height: 800px;
+     max-width: 980px;
+     min-height: 600px;
+     min-width: 1000px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .border-h {
+     height: 369px;
+     width: 290px;
+     background: transparent;
+     border-radius: 10px;
+     transition: border 1s;
+     position: absolute;
+     overflow: hidden;
+}
+ .border-h:hover {
+     border: 1px solid #fff;
+}
+ .card-h {
+     height: 379px;
+     width: 300px;
+     background: #808080;
+     border-radius: 10px;
+     transition: background 0.8s;
+     overflow: hidden;
+     background: #000;
+     box-shadow: 0 50px 63px -60px #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 58%;
+
+}
+ .card0-h {
+     background: url("non.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card0-h:hover {
+     background: url("non.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card0-h:hover h2 {
+     opacity: 1;
+}
+ 
+
+
+ h2 {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+}
+
+.icons-h h2{
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 8px;
+     margin-left: 13%;
+     opacity: 0;
+     transition: opacity 1s;
+     font-size: 10px;
+    }
+ .icons-h {
+     position: absolute;
+     fill: #fff;
+     color: #fff;
+     height: 130px;
+     top: 190px;
+     width: 160px;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.container-p {
+     height: 100vh;
+     width: 100vw;
+     max-height: 800px;
+     max-width: 980px;
+     min-height: 600px;
+     min-width: 1000px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .border-p {
+     height: 369px;
+     width: 290px;
+     background: transparent;
+     border-radius: 10px;
+     transition: border 1s;
+     position: absolute;
+     overflow: hidden;
+}
+ .border-p:hover {
+     border: 1px solid #fff;
+}
+ .card-p {
+     height: 379px;
+     width: 300px;
+     background: #808080;
+     border-radius: 10px;
+     transition: background 0.8s;
+     overflow: hidden;
+     background: #000;
+     box-shadow: 0 50px 63px -60px #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 25%;
+
+}
+ .card0-p {
+     background: url("hos.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card0-p:hover {
+     background: url("hos.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card0-p:hover h2 {
+     opacity: 1;
+}
+ .card0-p:hover .fa {
+     opacity: 1;
+}
+ 
+
+ .card1-p {
+     background: url("moon.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card1-p:hover {
+     background: url("moon.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card1-p:hover h2 {
+     opacity: 1;
+}
+
+
+.card2-p {
+     background: url("8.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card2-p:hover {
+     background: url("8.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card2-p:hover h2 {
+     opacity: 1;
+}
+ 
+
+
+ h2 {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+}
+
+.icons-p h2{
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 8px;
+     margin-left: 13%;
+     opacity: 0;
+     transition: opacity 1s;
+     font-size: 10px;
+    }
+ .icons-p {
+     position: absolute;
+     fill: #fff;
+     color: #fff;
+     height: 130px;
+     top: 190px;
+     width: 160px;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.container-p2 {
+     height: 100vh;
+     width: 100vw;
+     max-height: 800px;
+     max-width: 980px;
+     min-height: 600px;
+     min-width: 1000px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .border-p2 {
+     height: 369px;
+     width: 290px;
+     background: transparent;
+     border-radius: 10px;
+     transition: border 1s;
+     position: absolute;
+     overflow: hidden;
+}
+ .border-p2:hover {
+     border: 1px solid #fff;
+}
+ .card-p2 {
+     height: 379px;
+     width: 300px;
+     background: #808080;
+     border-radius: 10px;
+     transition: background 0.8s;
+     overflow: hidden;
+     background: #000;
+     box-shadow: 0 50px 63px -60px #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: -17%;
+
+}
+ .card0-p2 {
+     background: url("din.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card0-p2:hover {
+     background: url("din.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card0-p2:hover h2 {
+     opacity: 1;
+}
+ 
+
+
+ h2 {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+}
+
+.icons-p2 h2{
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 8px;
+     margin-left: 13%;
+     opacity: 0;
+     transition: opacity 1s;
+     font-size: 10px;
+    }
+ .icons-p2 {
+     position: absolute;
+     fill: #fff;
+     color: #fff;
+     height: 130px;
+     top: 190px;
+     width: 160px;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.container-v {
+     height: 100vh;
+     width: 100vw;
+     max-height: 800px;
+     max-width: 980px;
+     min-height: 600px;
+     min-width: 1000px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .border-v {
+     height: 369px;
+     width: 290px;
+     background: transparent;
+     border-radius: 10px;
+     transition: border 1s;
+     position: absolute;
+     overflow: hidden;
+}
+ .border-v:hover {
+     border: 1px solid #fff;
+}
+ .card-v {
+     height: 379px;
+     width: 300px;
+     background: #808080;
+     border-radius: 10px;
+     transition: background 0.8s;
+     overflow: hidden;
+     background: #000;
+     box-shadow: 0 50px 63px -60px #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: -49%;
+
+}
+ .card0-v {
+     background: url("uji.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card0-v:hover {
+     background: url("uji.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card0-v:hover h2 {
+     opacity: 1;
+}
+ .card0-v:hover .fa {
+     opacity: 1;
+}
+ 
+
+ .card1-v {
+     background: url("hani.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card1-v:hover {
+     background: url("hani.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card1-v:hover h2 {
+     opacity: 1;
+}
+
+
+.card2-v {
+     background: url("shua.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card2-v:hover {
+     background: url("shua.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card2-v:hover h2 {
+     opacity: 1;
+}
+ 
+
+
+ h2 {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+}
+
+.icons-v h2{
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 8px;
+     margin-left: 13%;
+     opacity: 0;
+     transition: opacity 1s;
+     font-size: 10px;
+    }
+ .icons-v {
+     position: absolute;
+     fill: #fff;
+     color: #fff;
+     height: 130px;
+     top: 190px;
+     width: 160px;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.container-v2 {
+     height: 100vh;
+     width: 100vw;
+     max-height: 800px;
+     max-width: 980px;
+     min-height: 600px;
+     min-width: 1000px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .border-v2 {
+     height: 369px;
+     width: 290px;
+     background: transparent;
+     border-radius: 10px;
+     transition: border 1s;
+     position: absolute;
+     overflow: hidden;
+}
+ .border-v2:hover {
+     border: 1px solid #fff;
+}
+ .card-v2 {
+     height: 379px;
+     width: 300px;
+     background: #808080;
+     border-radius: 10px;
+     transition: background 0.8s;
+     overflow: hidden;
+     background: #000;
+     box-shadow: 0 50px 63px -60px #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: -90.5%;
+
+}
+ .card0-v2 {
+     background: url("kyeom.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card0-v2:hover {
+     background: url("kyeom.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card0-v2:hover h2 {
+     opacity: 1;
+}
+
+ .card1-v2 {
+     background: url("kwan.png") center center no-repeat;
+     background-size: 300px;
+}
+ .card1-v2:hover {
+     background: url("kwan.png") left center no-repeat;
+     background-size: 600px;
+}
+ .card1-v2:hover h2 {
+     opacity: 1;
+}
+ 
+
+
+ h2 {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+}
+
+.icons-v2 h2{
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff;
+     margin: 8px;
+     margin-left: 13%;
+     opacity: 0;
+     transition: opacity 1s;
+     font-size: 10px;
+    }
+ .icons-v2 {
+     position: absolute;
+     fill: #fff;
+     color: #fff;
+     height: 130px;
+     top: 190px;
+     width: 160px;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.wrapper {
+    position: absolute;
+    top: 495%;
+    left: 37%;
+    width: 50%;
+    margin: 40px auto;
+}
+
+div.gallery {
+    margin-top: 30px;
+}
+
+div.gallery ul {
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+/* animation */
+div.gallery ul li, div.gallery li img {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+div.gallery ul li {
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+    padding: 5px;
+    z-index: 0;
+}
+
+/* Make sure z-index is higher on hover */
+/* Ensure that hover image overlapped the others */
+div.gallery ul li:hover {
+    z-index: 5;
+}
+
+/* Image is position nicely under li */
+div.gallery ul li img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    width: 130px;
+    height: 130px;
+    background: #f0f0f0;
+}
+
+div.gallery ul li img:hover {
+    width: 200px;
+    height: 200px;
+    margin-top: -130px;
+    margin-left: -130px;
+    top: 65%;
+    left: 65%;
+}
+
+
+.hoshi{
+    position: absolute;
+    top: 102%;
+    left: 5%;
+}
+
+.the8{
+    position: absolute;
+    top: 102%;
+    left: 55%;
+}
+
+.uji{
+    position: absolute;
+    top: 128%;
+    left: 30%;
+}
+
+* PEN STYLES ========== */
+
+.shows{
+    position: absolute;
+    top: 150%;
+}
+
+.going{
+    position: absolute;
+    top: 160%;
+}
+
+.soop{
+    position: absolute;
+    top: 160%;
+     left: 27%;
+}
+.road{
+    position: absolute;
+    top: 160%;
+    left: 53%;
+}
+
+.vlive{
+    position: absolute;
+    top: 160%;
+     left: 80%;
+}
+.if{
+    position: absolute;
+    top: 180%;
+
+   
+}
+
+.inside{
+    position: absolute;
+    top: 180%;
+    left: 27%;
+}
+
+.star{
+    position: absolute;
+    top: 180%;
+    left: 53%;
+}
+
+.snap{
+    position: absolute;
+    top: 180%;
+    left: 80%;
+}
+
+
